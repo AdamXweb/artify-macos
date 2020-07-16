@@ -3,7 +3,7 @@
 //  Desktopaint
 //
 //  Created by Nghia Tran on 6/12/18.
-//  Copyright © 2018 com.art.Desktopaint.app. All rights reserved.
+//  Copyright © 2020 com.topre.Desktopaint.app. All rights reserved.
 //
 
 import Foundation

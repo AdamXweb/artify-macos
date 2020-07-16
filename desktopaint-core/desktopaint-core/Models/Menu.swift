@@ -3,7 +3,7 @@
 //  Desktopaint-core
 //
 //  Created by Nghia Tran on 5/20/18.
-//  Copyright © 2018 com.art.Desktopaint.core. All rights reserved.
+//  Copyright © 2020 com.topre.Desktopaint.core. All rights reserved.
 //
 
 import Foundation
@@ -13,6 +13,7 @@ public struct Menu {
     public enum Kind {
         case getFeature
         case random
+        case category
         case separator
         case aboutThisPhoto
         case launchOnStartup
@@ -45,6 +46,8 @@ public struct Menu {
             return "About this Art"
         case .random:
             return "Randomize"
+        case .category:
+            return "Categories coming soon"
         }
     }
 

@@ -3,7 +3,7 @@
 //  Desktopaint-core
 //
 //  Created by Nghia Tran on 5/28/18.
-//  Copyright © 2018 com.art.Desktopaint.core. All rights reserved.
+//  Copyright © 2020 com.topre.Desktopaint.core. All rights reserved.
 //
 
 import Foundation

@@ -153,24 +153,26 @@
             <objects>
                 <customObject id="2eK-fn-YKL" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
                 <viewController id="UyQ-gm-OH7" customClass="AboutWindowController" customModule="Desktopaint" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" misplaced="YES" id="aZ6-qO-1F8">
+                    <view key="view" autoresizesSubviews="NO" id="aZ6-qO-1F8">
                         <rect key="frame" x="0.0" y="0.0" width="481" height="419"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FjZ-51-4oe">
+                            <imageView horizontalHuggingPriority="256" verticalHuggingPriority="256" id="FjZ-51-4oe">
                                 <rect key="frame" x="125" y="86" width="231" height="231"/>
-                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="about" id="LyL-Ff-PBV"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES"/>
+                                <imageCell key="cell" controlSize="small" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="about" id="LyL-Ff-PBV"/>
                             </imageView>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="klj-F7-bpM">
-                                <rect key="frame" x="123" y="354" width="235" height="56"/>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" preferredMaxLayoutWidth="232" id="klj-F7-bpM">
+                                <rect key="frame" x="122" y="349" width="236" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Desktopaint" id="cn1-G1-Q2m">
-                                    <font key="font" metaFont="systemThin" size="48"/>
+                                    <font key="font" size="48" name="ITFDevanagari-Book"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kni-Z9-ma5">
-                                <rect key="frame" x="169" y="330" width="142" height="16"/>
+                                <rect key="frame" x="123" y="325" width="138" height="16"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="left" title="Version 0.1 (Build: 101)" id="Cv4-Sk-4HJ">
                                     <font key="font" metaFont="systemLight" size="13"/>
                                     <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
@@ -192,9 +194,9 @@
                                 </connections>
                             </button>
                             <button verticalHuggingPriority="750" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bRp-wG-Ypx">
-                                <rect key="frame" x="195" y="28" width="149" height="35"/>
+                                <rect key="frame" x="167" y="28" width="149" height="35"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="94" id="5Yy-jl-Kz7"/>
+                                    <constraint firstAttribute="width" constant="149" id="5Yy-jl-Kz7"/>
                                     <constraint firstAttribute="height" constant="32" id="VJk-BK-wiU"/>
                                 </constraints>
                                 <buttonCell key="cell" type="squareTextured" title="Desktopaint macOS" bezelStyle="texturedSquare" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="LpC-oz-2bx">
@@ -207,14 +209,9 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="klj-F7-bpM" firstAttribute="leading" secondItem="FjZ-51-4oe" secondAttribute="trailing" constant="36" id="1ua-mH-dq3"/>
+                            <constraint firstItem="klj-F7-bpM" firstAttribute="leading" secondItem="FjZ-51-4oe" secondAttribute="trailing" constant="-232" id="1ua-mH-dq3"/>
                             <constraint firstItem="kni-Z9-ma5" firstAttribute="leading" secondItem="klj-F7-bpM" secondAttribute="leading" id="5cI-p8-gZi"/>
-                            <constraint firstItem="FjZ-51-4oe" firstAttribute="centerY" secondItem="aZ6-qO-1F8" secondAttribute="centerY" id="X9L-HX-0sQ"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kni-Z9-ma5" secondAttribute="trailing" constant="24" id="aAW-yE-5An"/>
-                            <constraint firstItem="klj-F7-bpM" firstAttribute="top" secondItem="aZ6-qO-1F8" secondAttribute="top" constant="18" id="bcf-Wd-69r"/>
-                            <constraint firstItem="kni-Z9-ma5" firstAttribute="top" secondItem="klj-F7-bpM" secondAttribute="bottom" id="s68-aR-Sxe"/>
-                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="klj-F7-bpM" secondAttribute="trailing" constant="24" id="uj9-2d-qh5"/>
-                            <constraint firstItem="FjZ-51-4oe" firstAttribute="leading" secondItem="aZ6-qO-1F8" secondAttribute="leading" constant="36" id="yV8-bI-iR4"/>
+                            <constraint firstItem="kni-Z9-ma5" firstAttribute="top" secondItem="klj-F7-bpM" secondAttribute="bottom" constant="8" id="s68-aR-Sxe"/>
                         </constraints>
                     </view>
                     <connections>
