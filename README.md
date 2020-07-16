@@ -1,14 +1,14 @@
 
 <p align="center">
-  <img src="https://github.com/NghiaTranUIT/artify-macos/blob/master/images/logo.png" alt="Artify App Logo" width="600" height="auto"/>
+  <img src="https://github.com/NghiaTranUIT/desktopaint-macos/blob/master/images/logo.png" alt="Desktopaint App Logo" width="600" height="auto"/>
 </p>
 
 <h2>
-  Artify
-  <a href="https://travis-ci.org/NghiaTranUIT/artify-macos">
-    <img src="https://travis-ci.org/NghiaTranUIT/artify-macos.svg?branch=master" alt="Build Status">
+  Desktopaint
+  <a href="https://travis-ci.org/NghiaTranUIT/desktopaint-macos">
+    <img src="https://travis-ci.org/NghiaTranUIT/desktopaint-macos.svg?branch=master" alt="Build Status">
   </a>
-  <a href="https://github.com/NghiaTranUIT/artify-macos/releases/tag/0.5.1">
+  <a href="https://github.com/NghiaTranUIT/desktopaint-macos/releases/tag/0.5.1">
     <img src="https://img.shields.io/badge/version-0.5.1-green.svg" alt="0.5.1">
   </a>
   <a href="./LICENSE">
@@ -29,11 +29,11 @@ A macOS X application for bringing dedicatedly 18th century Arts to everyone �
 ## Wallpaper
 
 <div align="center">
-    <img src="https://github.com/NghiaTranUIT/artify-macos/blob/master/images/red-vineyards-at-arles-1888.jpg" width="100%" />
+    <img src="https://github.com/NghiaTranUIT/desktopaint-macos/blob/master/images/red-vineyards-at-arles-1888.jpg" width="100%" />
     <div align="center">Red Vineyard At Arles</div>
-    <img src="https://github.com/NghiaTranUIT/artify-macos/blob/master/images/the-starry-night.jpg" width="100%" />
+    <img src="https://github.com/NghiaTranUIT/desktopaint-macos/blob/master/images/the-starry-night.jpg" width="100%" />
     <div align="center">The Starry Night</div>
-    <img src="https://github.com/NghiaTranUIT/artify-macos/blob/master/images/1440_900_the_wanderer_above_the_sea_of_fog.jpg" width="100%" />
+    <img src="https://github.com/NghiaTranUIT/desktopaint-macos/blob/master/images/1440_900_the_wanderer_above_the_sea_of_fog.jpg" width="100%" />
     <div align="center">The Wanderer Above The Sea of Fog</div>
 </div>
 
@@ -46,7 +46,7 @@ A macOS X application for bringing dedicatedly 18th century Arts to everyone �
 * 💯 Totally Free.
 
 ## Downloads
-All downloads are available at [Release page](https://github.com/NghiaTranUIT/artify-macos/releases)
+All downloads are available at [Release page](https://github.com/NghiaTranUIT/desktopaint-macos/releases)
 
 ### macOS Requirement
 The minimum version supported is macOS 10.11.
@@ -69,12 +69,12 @@ The minimum version supported is macOS 10.11.
 * [Sparkle](https://sparkle-project.org)
 
 ## Development
-Artify requires [Artify Core](https://github.com/NghiaTranUIT/artify-core) as a backend. Pls follow this [Instruction](https://github.com/NghiaTranUIT/artify-core/blob/master/README.md) in order to start the core successfully 😎
+Desktopaint requires [Desktopaint Core](https://github.com/NghiaTranUIT/desktopaint-core) as a backend. Pls follow this [Instruction](https://github.com/NghiaTranUIT/desktopaint-core/blob/master/README.md) in order to start the core successfully 😎
 
 After starting the development server.
 * Clone this project
 * Run `$ pod install`
-* Open `ArtifyWorkspace.xcworkspace`
+* Open `DesktopaintWorkspace.xcworkspace`
 * Happy coding 😍
 
 ## FAQ
@@ -87,11 +87,11 @@ After starting the development server.
 
 * **Where is the Backend side?**
 
-> I'm in charge of developing the [Artify Core](https://github.com/NghiaTranUIT/artify-core), as a Golang backend serverside. > Feel free to contribute cooperatively.
+> I'm in charge of developing the [Desktopaint Core](https://github.com/NghiaTranUIT/desktopaint-core), as a Golang backend serverside. > Feel free to contribute cooperatively.
 
 * **What is the current progress?**
 
-> Here is [Open Ticket](https://github.com/NghiaTranUIT/artify-macos/issues?q=is%3Aopen+is%3Aissue) and [Close Ticket](https://github.com/NghiaTranUIT/artify-macos/issues?q=is%3Aissue+is%3Aclosed)
+> Here is [Open Ticket](https://github.com/NghiaTranUIT/desktopaint-macos/issues?q=is%3Aopen+is%3Aissue) and [Close Ticket](https://github.com/NghiaTranUIT/desktopaint-macos/issues?q=is%3Aissue+is%3Aclosed)
 
 * **Why do you choose RxSwift + MVVM?**
 
@@ -101,7 +101,7 @@ After starting the development server.
 
 * **Is this app built with Swift?**
 
-> Yes, Artify is built on top of Swift 4.1 and macOS Native library.
+> Yes, Desktopaint is built on top of Swift 4.1 and macOS Native library.
 
 * **Why is it an OSS?**
 
@@ -119,11 +119,11 @@ After starting the development server.
 >
 > Let imagine, every day, when I open my laptop at 9 AM, I can see the best photo of this day, with detail information, history, and the author. That would be amazing 😱
 >
-> Without considering, I start to develop the macOS app as well as the [Artify-Core](https://github.com/NghiaTranUIT/artify-core), which is written by Golang.
+> Without considering, I start to develop the macOS app as well as the [Desktopaint-Core](https://github.com/NghiaTranUIT/desktopaint-core), which is written by Golang.
 >
 > All of the art pictures will be hand-picked by me and my best girlfriend. Hope you enjoy it 😍
 
-* **How does Artify generate the beautify wallpaper?**
+* **How does Desktopaint generate the beautify wallpaper?**
 
 > **[DR;TL]**
 >
@@ -136,19 +136,19 @@ After starting the development server.
 >
 > **[Detail implementation]**
 >
-> Here is the [algorithm](https://github.com/NghiaTranUIT/artify-macos/blob/master/artify-core/artify-core/Algorithm/Gaussian/GaussianAlgorithm.swift)
+> Here is the [algorithm](https://github.com/NghiaTranUIT/desktopaint-macos/blob/master/desktopaint-core/desktopaint-core/Algorithm/Gaussian/GaussianAlgorithm.swift)
 
-* **Where does the Artify's resource come from?**
+* **Where does the Desktopaint's resource come from?**
 
 > Every art pictures are hand-picked from [WikiArt](https://www.wikiart.org).
 >
-> If you wonder how I collect the data. Here is my partner, [Spider Man](https://github.com/NghiaTranUIT/artify-core/blob/master/scripts/spider.ruby), which is a Ruby script.
+> If you wonder how I collect the data. Here is my partner, [Spider Man](https://github.com/NghiaTranUIT/desktopaint-core/blob/master/scripts/spider.ruby), which is a Ruby script.
 >
 > The conjunction of [Nokogiri](http://www.nokogiri.org) and [Watir](http://watir.com) are perfect for this scenario. Indeed,I'm a lazy man, I don't want to collect data like a manual labor 😅.
 
 * **What are the tough problems, which you confronts when developing this project?**
 
-> The Implementation of the [Artify Core](https://github.com/NghiaTranUIT/artify-core) by Golang with latest technologies and the Artify Gaussian algorithm are two things take me most the effort.
+> The Implementation of the [Desktopaint Core](https://github.com/NghiaTranUIT/desktopaint-core) by Golang with latest technologies and the Desktopaint Gaussian algorithm are two things take me most the effort.
 
 * **Can I become a contributor?**
 

@@ -37,7 +37,7 @@ DEPENDENCIES:
   - Wrap
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - Action
     - Alamofire
     - Moya
@@ -65,6 +65,6 @@ SPEC CHECKSUMS:
   Unbox: 9ed33b2a31f7a8a049f54b94d40c4a52a28c4d9d
   Wrap: 918fdb5157e4f701f9503b2633752d6f94616f84
 
-PODFILE CHECKSUM: 9ce4a1ee1d86724f94f8bcf6f0760c78e87a8124
+PODFILE CHECKSUM: 918e0f7bfec9225e9d3d0f12cf3cdd6316b86083
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.9.3

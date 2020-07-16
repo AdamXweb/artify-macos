@@ -5,9 +5,9 @@ rvm:
 
 env:
   global:
-    - WORKSPACE="ArtifyWorkspace.xcworkspace"
-    - OSX_APP_SCHEME="Artify"
-    - FRAMEWORK_SCHEME="artify-core"
+    - WORKSPACE="DesktopaintWorkspace.xcworkspace"
+    - OSX_APP_SCHEME="Desktopaint"
+    - FRAMEWORK_SCHEME="desktopaint-core"
     - OSX_SDK=macosx10.13
   matrix:
     - DESTINATION="arch=x86_64"                      SCHEME="$OSX_APP_SCHEME"           SDK="$OSX_SDK"     RUN_TESTS="NO"    BUILD_EXAMPLE="YES"

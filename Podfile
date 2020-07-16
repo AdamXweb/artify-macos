@@ -3,10 +3,10 @@ source 'https://github.com/CocoaPods/Specs.git'
 platform :osx, '10.12'
 use_frameworks!
 inhibit_all_warnings!
-workspace 'ArtifyWorkspace.xcworkspace'
+workspace 'DesktopaintWorkspace.xcworkspace'
 
 #
-# ============================= Artify ==================================
+# ============================= Desktopaint ==================================
 #
 
 def pod_required
@@ -24,19 +24,19 @@ def pod_required
 end
 
 
-# Artify
-target 'Artify' do
-    project 'Artify/Artify.xcodeproj'
+# Desktopaint
+target 'Desktopaint' do
+    project 'Desktopaint/Desktopaint.xcodeproj'
     pod_required
 end
 
 #
-# ============================= Artify Core ==================================
+# ============================= Desktopaint Core ==================================
 #
 
-# Artify Core
-target 'artify-core' do
-    project 'artify-core/artify-core.xcodeproj'
+# Desktopaint Core
+target 'desktopaint-core' do
+    project 'desktopaint-core/desktopaint-core.xcodeproj'
     pod_required
 end
 
