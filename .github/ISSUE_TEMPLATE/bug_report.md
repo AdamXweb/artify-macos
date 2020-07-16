@@ -23,12 +23,8 @@ A clear and concise description of what you expected to happen.
 **Screenshots**
 If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
+**Desktop (please complete the following information):**
  - Device: [e.g. MacBook Pro 13 2020]
  - OS: [e.g. macOS 13.5.5 ]
  - Version [e.g. 1 Build 1000]
