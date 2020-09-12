@@ -20,12 +20,8 @@ Bring beautiful art to your macOS desktop 🖌️.
 ## Wallpaper
 
 <div align="center">
-    <img src="https://github.com/topre-dev/desktopaint-macos/blob/master/images/red-vineyards-at-arles-1888.jpg" width="100%" />
-    <div align="center">Red Vineyard At Arles</div>
-    <img src="https://github.com/topre-dev/desktopaint-macos/blob/master/images/the-starry-night.jpg" width="100%" />
-    <div align="center">The Starry Night</div>
-    <img src="https://github.com/topre-dev/desktopaint-macos/blob/master/images/1440_900_the_wanderer_above_the_sea_of_fog.jpg" width="100%" />
-    <div align="center">The Wanderer Above The Sea of Fog</div>
+    <img src="https://github.com/topre-dev/desktopaint-macos/blob/master/images/1920_1080_the_great_wave_off_kanagawa.jpg" width="100%" />
+    <div align="center">Great wave off Kanagawa</div>
 </div>
 
 ## Features
